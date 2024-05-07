@@ -1,4 +1,5 @@
 package;
+
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -9,11 +10,14 @@ import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.group.FlxGroup;
 import flixel.math.FlxMath;
-import flixel.text.FlxText
+import flixel.text.FlxText;
+import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import lime.net.curl.CURLCode;
+
 using StringTools;
+
 class StoryMenuState extends MusicBeatState
 {
 	var scoreText:FlxText;
@@ -54,7 +58,7 @@ class StoryMenuState extends MusicBeatState
 		"RED SNOW",
 		"hating simulator ft. moawling",
 		"TANKMAN"
-		"DARNELL"
+		"DArNELL"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -357,8 +361,6 @@ class StoryMenuState extends MusicBeatState
 				sprDifficulty.offset.x = 70;
 			case 2:
 				sprDifficulty.animation.play('hard');
-				sprDifficulty.offset.x = 20;
-				sprDifficulty.animation.play('erect);
 				sprDifficulty.offset.x = 20;
 		
 		}
