@@ -31,7 +31,7 @@ class StoryMenuState extends MusicBeatState
 		['Cocoa', 'Eggnog', 'Winter-Horrorland'],
 		['Senpai', 'Roses', 'Thorns'],
 		['Ugh', 'Guns', 'Stress']
-		['Darnell', 'Lit-up', '2hot'],
+		['Darnell', 'Lit-up', '2hot']
 	];
 	var curDifficulty:Int = 1;
 
@@ -45,7 +45,7 @@ class StoryMenuState extends MusicBeatState
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
 		['senpai', 'bf', 'gf'],
-		['tankman', 'bf', 'gf']
+		['tankman', 'bf', 'gf'],
 		['darnell','pico','nene']
 	];
 
@@ -57,7 +57,7 @@ class StoryMenuState extends MusicBeatState
 		"MOMMY MUST MURDER",
 		"RED SNOW",
 		"hating simulator ft. moawling",
-		"TANKMAN"
+		"TANKMAN",
 		"DArNELL"
 	];
 
