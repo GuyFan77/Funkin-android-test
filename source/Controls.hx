@@ -69,7 +69,7 @@ abstract Action(String) to String from String
 	var RESET = "reset";
 	#if CAN_CHEAT
 	var CHEAT = "cheat";
-
+	#end
 	var UP      = "note_up";
 	var LEFT    = "note_left";
 	var RIGHT   = "note_right";
