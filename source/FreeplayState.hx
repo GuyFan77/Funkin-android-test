@@ -390,11 +390,12 @@ class FreeplayState extends MusicBeatState
 				// item.setGraphicSize(Std.int(item.width));
 			}
 		}
-	
+		
 
 
-class SongMetadata
-{
+		{class SongMetadata
+		}
+		{
 	public var songName:String = "";
 	public var week:Int = 0;
 	public var songCharacter:String = "";
