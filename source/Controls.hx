@@ -69,7 +69,15 @@ abstract Action(String) to String from String
 	var RESET = "reset";
 	#if CAN_CHEAT
 	var CHEAT = "cheat";
-	#end
+
+	var UP      = "note_up";
+	var LEFT    = "note_left";
+	var RIGHT   = "note_right";
+	var DOWN    = "note_down";
+	var UP_P    = "note_up-press";
+	var LEFT_P  = "note_left-press";
+	var RIGHT_P = "note_right-press";
+	var DOWN_P  = "note_down-press";
 }
 
 enum Device
