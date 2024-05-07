@@ -92,7 +92,7 @@ class FreeplayState extends MusicBeatState
 			addWeek(['Darnell', 'Lit-up', '2hot'], 8, ['Darnell']);
 
 //test song.
-		addWeek(['Test'], 8, ['bf-pixel']);
+		addWeek(['Test'], 9, ['bf-pixel']);
 
 		// LOAD MUSIC
 
@@ -248,8 +248,10 @@ class FreeplayState extends MusicBeatState
 				bg.color = FlxColor.fromRGB(255, 204, 0);
 			case 'test':
 				bg.color = FlxColor.fromRGB(42, 210, 222);
+				bg.color = FlxColor.fromRGB(255, 0, 81);
+			case 'darnell' | 'lit-up' | '2hot':
 		}
-
+				
 		var upP = controls.UP_P;
 		var downP = controls.DOWN_P;
 		var accepted = controls.ACCEPT;
