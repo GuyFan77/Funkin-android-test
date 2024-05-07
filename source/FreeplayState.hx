@@ -392,9 +392,7 @@ class FreeplayState extends MusicBeatState
 		}
 		
 
-
-		{class SongMetadata
-		}
+        
 		{
 	public var songName:String = "";
 	public var week:Int = 0;
