@@ -248,8 +248,8 @@ class FreeplayState extends MusicBeatState
 				bg.color = FlxColor.fromRGB(255, 204, 0);
 			case 'test':
 				bg.color = FlxColor.fromRGB(42, 210, 222);
-				bg.color = FlxColor.fromRGB(255, 0, 81);
 			case 'darnell' | 'lit-up' | '2hot':
+				bg.color = FlxColor.fromRGB(255, 0, 81);
 		}
 				
 		var upP = controls.UP_P;
