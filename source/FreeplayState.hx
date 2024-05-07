@@ -252,8 +252,8 @@ class FreeplayState extends MusicBeatState
 				bg.color = FlxColor.fromRGB(255, 0, 81);
 		}
 				
-		var upP = controls.UP_P;
-		var downP = controls.DOWN_P;
+		var upP = controls.NOTE_UP_P;
+		var downP = controls.NOTE_DOWN_P;
 		var accepted = controls.ACCEPT;
 
 		if (upP)
@@ -267,9 +267,9 @@ class FreeplayState extends MusicBeatState
 			colorLog += 1;
 		}
 
-		if (controls.LEFT_P)
+		if (controls.NOTE_LEFT_P)
 			changeDiff(-1);
-		if (controls.RIGHT_P)
+		if (controls.NOTE_RIGHT_P)
 			changeDiff(1);
 
 		if (controls.BACK)
@@ -392,9 +392,9 @@ class FreeplayState extends MusicBeatState
 		}
 	}
 	function iconBop(?_scale:Float = 1.25, ?_time:Float = 0.2):Void {
-		iconArray[curSelected].iconScale = iconArray[curSelected].defualtIconScale * _scale;
+		iconArray[curSelected]. healthIcon = iconArray[curSelected].defaultIconScale * _scale;
 
-		FlxTween.tween(iconArray[curSelected], {iconScale: iconArray[curSelected].defualtIconScale}, _time, {ease: FlxEase.quintOut});
+		FlxTween.tween(iconArray[curSelected], {healthIcon: iconArray[curSelected].defaultIconScale}, _time, {ease: FlxEase.quintOut});
 	}
 }
 
