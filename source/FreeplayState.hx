@@ -392,7 +392,7 @@ class FreeplayState extends MusicBeatState
 		}
 	}
 	function iconBop(?_scale:Float = 1.25, ?_time:Float = 0.2):Void {
-		iconArray[curSelected]. iconArray = iconArray[curSelected].defaultIconScale * _scale;
+		iconArray[curSelected]. iconArray[curSelected].defaultIconScale * _scale;
 
 		FlxTween.tween(iconArray[curSelected], {healthIcon: iconArray[curSelected].defaultIconScale}, _time, {ease: FlxEase.quintOut});
 	}
