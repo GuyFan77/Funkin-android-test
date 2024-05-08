@@ -166,7 +166,7 @@ class ControlEditorState extends FlxState
 		#if android
 		if (FlxG.android.justReleased.BACK)
 		{
-			FlxG.switchState(new Options());
+			FlxG.switchState(new OptionsMenu());
 		}
 		#end
 
