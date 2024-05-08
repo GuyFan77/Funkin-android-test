@@ -167,10 +167,10 @@ class ControlEditorState extends FlxState
 		if (FlxG.android.justReleased.BACK)
 		
 		}
-		#end
+		{#end
 
 		if (FlxG.keys.justReleased.RIGHT)
-		{
+		
 			changeSelection(1);
 		}
 
