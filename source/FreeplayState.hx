@@ -391,8 +391,8 @@ class FreeplayState extends MusicBeatState
 				
 			}
 				
-			{
-    public class Song {
+			
+  { public class Song {
     public var songName:String = "";
     public var week:int = 0;
     public var songCharacter:String = "";
@@ -401,7 +401,7 @@ class FreeplayState extends MusicBeatState
         this.songName = song;
         this.week = week;
         this.songCharacter = songCharacter;
-    
-}	
+    }
+	
     }
 			}
