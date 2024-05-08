@@ -388,20 +388,19 @@ class FreeplayState extends MusicBeatState
 			{
 				item.alpha = 1;
 				// item.setGraphicSize(Std.int(item.width));
+				
+				
+				
+				
 				{
 					
-		
-        
-		{	
 	public var songName:String = "";
 	public var week:Int = 0;
 	public var songCharacter:String = "";
-
 	public function new(song:String, week:Int, songCharacter:String)
-	}
+					}
 	{
 		this.songName = song;
 		this.week = week;
 		this.songCharacter = songCharacter;
 	}
-}
