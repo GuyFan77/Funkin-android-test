@@ -1,3 +1,4 @@
+#include <typeinfo>
 # This is a basic workflow to help you get started with Actions
 
 # Based on Kade engine ci
@@ -46,7 +47,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: script run line haha
         run: |
-          #include <typeinfo>
+          
           mkdir -p "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
           haxelib install lime 7.9.0 --quiet
